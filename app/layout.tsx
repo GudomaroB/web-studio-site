@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ru_KZ",
-    url: "https://webstudio.com",
+    url: "https://web-studio-site.vercel.app/",
     siteName: "WebStudio",
     title: "Разработка сайтов в Атырау | WebStudio",
     description:
