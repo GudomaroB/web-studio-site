@@ -89,7 +89,7 @@ export function ContactForm() {
   return (
     <Card className="border-border bg-card">
       <CardHeader>
-        <CardTitle className="font-serif text-2xl">Send Us a Message</CardTitle>
+        <CardTitle className="font-serif text-2xl">Свяжитесь с нами</CardTitle>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-6">
