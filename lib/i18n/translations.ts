@@ -364,3 +364,9 @@ export const translations: Record<Locale, Record<string, string>> = {
     "common.readMore": "Толығырақ оқу"
   }
 };
+
+/*
+  git add .
+  git commit -m "update site"
+  git push
+*/

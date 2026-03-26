@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   },
   description:
     "Разработка сайтов в Атырау: лендинги, интернет-магазины и сайты для бизнеса. Создаем современные и быстрые сайты под ключ в Казахстане.",
+  verification: {
+    google: "utNdTKQctwRWGbYTBA08mdHl3EP8cjS6HnupZImNIFs"
+  },
+
   keywords: [
     "разработка сайтов Атырау",
     "создание сайтов Казахстан",
