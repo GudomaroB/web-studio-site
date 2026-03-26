@@ -7,6 +7,7 @@ import { ReviewsList } from "@/components/reviews/reviews-list";
 import { ReviewForm } from "@/components/reviews/review-form";
 import { CTASection } from "@/components/sections/cta-section";
 
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Reviews",
   description:
@@ -15,8 +16,8 @@ export const metadata: Metadata = {
     title: "Client Reviews | WebStudio",
     description:
       "Read what our clients say about working with WebStudio. Real testimonials from businesses we've helped succeed.",
-    images: ["/og-reviews.jpg"],
-  },
+    images: ["/og-reviews.jpg"]
+  }
 };
 
 export default function ReviewsPage() {
