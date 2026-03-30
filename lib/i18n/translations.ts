@@ -192,7 +192,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     // CTA
     "cta.title": "Готовы обсудить ваш проект?",
     "cta.subtitle":
-      "Оставьте заявку — свяжемся с вами и предложим решение под ваши задачи.",
+      "Оставьте заявку  свяжемся с вами и предложим решение под ваши задачи.",
     "cta.button": "Оставить заявку",
 
     // Contact

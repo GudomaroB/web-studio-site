@@ -4,13 +4,20 @@ import Link from "next/link";
 import { useI18n } from "@/lib/i18n/context";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, CheckCircle, Briefcase, Award, Users } from "lucide-react";
+import {
+  ArrowRight,
+  Sparkles,
+  CheckCircle,
+  Briefcase,
+  Award,
+  Users
+} from "lucide-react";
 
 const trustBadges = [
   { icon: Briefcase, labelKey: "trust.projects" },
   { icon: Users, labelKey: "trust.clients" },
   { icon: CheckCircle, labelKey: "trust.experience" },
-  { icon: Award, labelKey: "trust.awards" },
+  { icon: Award, labelKey: "trust.awards" }
 ];
 
 export function HeroSection() {
@@ -33,7 +40,7 @@ export function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h1 className="animate-fade-up stagger-1 mt-8 font-serif text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl text-balance">
+          <h1 className="animate-fade-up stagger-1 mt-8  text-3xl font-500 leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl text-balance">
             {t("hero.title")}
           </h1>
 

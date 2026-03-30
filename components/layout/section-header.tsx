@@ -47,7 +47,7 @@ export function SectionHeader({
           {displayBadge}
         </span>
       )}
-      <h2 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-4xl text-balance">
+      <h2 className="mt-2 font-serif text-3xl font-500 tracking-tight text-foreground sm:text-4xl md:text-4xl text-balance">
         {displayTitle}
       </h2>
       {displaySubtitle && (

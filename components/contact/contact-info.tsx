@@ -60,7 +60,9 @@ export function ContactInfo() {
       {/* Contact Details Card */}
       <Card className="border-border bg-card">
         <CardHeader>
-          <CardTitle className="font-serif text-2xl">Contact Details</CardTitle>
+          <CardTitle className="font-serif text-2xl">
+            Контактная информация
+          </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           {contactDetails.map((detail, index) => (

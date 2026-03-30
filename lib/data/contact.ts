@@ -16,7 +16,7 @@ export const contactInfo: ContactInfo = {
   address: "Makhambet Utemisov",
   city: "Atyrau",
   country: "Kazakhstan",
-  businessHours: "Mon - Fri: 9:00 AM - 6:00 PM",
+  businessHours: "Пн - Пт: 9:00 - 18:00",
   whatsapp: "+77053939448",
   telegram:
     "https://t.me/gudomarov?text=Добрый%20день,%20интересует%20разработка",

@@ -34,7 +34,7 @@ import {
   Moon,
   Sun,
   Globe,
-  type LucideIcon,
+  type LucideIcon
 } from "lucide-react";
 
 export const iconMap: Record<string, LucideIcon> = {
@@ -72,7 +72,7 @@ export const iconMap: Record<string, LucideIcon> = {
   X,
   Moon,
   Sun,
-  Globe,
+  Globe
 };
 
 export function getIcon(name: string): LucideIcon | undefined {
@@ -114,5 +114,5 @@ export {
   X,
   Moon,
   Sun,
-  Globe,
+  Globe
 };
