@@ -31,6 +31,30 @@ export const portfolioProjects: PortfolioProject[] = [
     year: "2024",
     link: "https://evgeniafurniture.com/",
     featured: true
+  },
+  {
+    id: "2",
+    slug: "flower-shop",
+    title: "Цветочный магазин (онлайн заказы)",
+    category: "ecommerce",
+    categoryLabel: "Web Design",
+    description: "Современный сайт цветочного магазина с онлайн заказами.",
+    fullDescription:
+      "Разработал современный сайт для цветочного магазина с каталогом, корзиной и оформлением заказа. Клиент выбирает букет и отправляет заказ, который приходит в Telegram и на почту. Есть удобная админ-панель для добавления, удаления и редактирования товаров.",
+    imageUrl: "/portfolio/flower.webp",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Prisma",
+      "Neon",
+      "Cloudinary",
+      "Typescipt",
+      "React"
+    ],
+    client: "Flower Shop",
+    year: "2026",
+    link: "https://flower-shop-nine-beta.vercel.app/",
+    featured: true
   }
 ];
 
